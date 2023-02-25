@@ -13,6 +13,9 @@
 #include "quotaio.h"
 #include <time.h>
 
+// Kill useless logs
+#define printf(...)
+
 char *tree_mark;
 uint32_t tree_mark_size = 256;
 

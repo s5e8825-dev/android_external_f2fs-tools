@@ -55,6 +55,8 @@ cc_defaults {
         "-Wno-pointer-arith",
         "-Wno-sign-compare",
         "-Wno-unused-function",
+	"-Wno-unused-parameter",
+	"-Wno-unused-variable",
         "-Wno-string-plus-int",
     ],
     local_include_dirs: [
